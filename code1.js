@@ -45,7 +45,7 @@ gdjs.GameplayCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12158036);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14184020);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "coin.wav", false, 100, 1);
@@ -90,7 +90,7 @@ gdjs.GameplayCode.eventsList2 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12164276);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14190348);
 }
 if (isConditionTrue_0) {
 {gdjs.deviceVibration.startVibration(50);
@@ -135,7 +135,7 @@ gdjs.GameplayCode.eventsList4 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(12167020);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(14193444);
 }
 if (isConditionTrue_0) {
 {gdjs.deviceVibration.startVibration(50);
@@ -205,7 +205,7 @@ gdjs.copyArray(runtimeScene.getObjects("timer"), gdjs.GameplayCode.GDtimerObject
     gdjs.GameplayCode.GDtile_95952Objects1[i].setCenterXInScene(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
 }
 }{for(var i = 0, len = gdjs.GameplayCode.GDCoinObjects1.length ;i < len;++i) {
-    gdjs.GameplayCode.GDCoinObjects1[i].getBehavior("Resizable").setSize(50, 50);
+    gdjs.GameplayCode.GDCoinObjects1[i].getBehavior("Resizable").setSize(40, 40);
 }
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.GameplayCode.mapOfGDgdjs_9546GameplayCode_9546GDCoinObjects1Objects, gdjs.random(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene)), -(400), "");
 }{for(var i = 0, len = gdjs.GameplayCode.GDcoin_9595counterObjects1.length ;i < len;++i) {
